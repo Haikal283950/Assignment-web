@@ -1,0 +1,89 @@
+:root {
+    background-color: #0F0F0F;
+}
+
+body {
+    font-family: 'Poppins';
+    color: #FDFDFD;
+}
+
+h1{
+    font-family: 'joyride';
+    font-size: 6vw;
+    line-height: 25%;
+}
+
+.main-title2{
+    font-size: 5vw;
+}
+
+.title2{
+    font-size: 2vw;
+}
+.main-intro{
+    line-height: 120%;
+    text-justify: distribute;
+    font-weight: 100;
+    font-size: 1.3vw;
+}
+
+.second-intro{
+    line-height: 120%;
+    text-align: justify;
+    font-weight: 100;
+    font-size: 1.3vw;
+}
+
+
+.container1{
+    justify-content: space-between;
+}
+
+
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+.nav__list{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 29px;
+}
+
+.nav__list li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__list li a {
+    transition: all 0.3s ease 0s;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container1 {
+    padding: 200px;
+    margin-left: 500px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    color: yellow;
+}
+
+.carAndWalkman > img {
+    width: 55%;
+    max-width: 55%;
+    height: 100px;
+}
